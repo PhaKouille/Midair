@@ -88,10 +88,5 @@ while True:
     main()
     repeat = input(YELLOW + "\nencore ? (Y/N) : " + RESET).strip().lower()
     if repeat == 'n':
-        print(MAGENTA)
-        tprint("By  PhaKouille")
-        print(RESET)
         break
-
-time.sleep(1)
 sys.exit()
